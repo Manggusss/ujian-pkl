@@ -1,23 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentasi PKL</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .carousel {
+      scroll-snap-type: x mandatory;
+      overflow-x: hidden;
+      display: flex;
+    }
+    .carousel-item {
+      scroll-snap-align: start;
+      flex: 0 0 100%;
+    }
+  </style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+  .font-montserrat {
+    font-family: "Montserrat"
+  }
+</style>
+
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white py-6">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-montserrat font-bold">Presentasi Laporan Praktek Kerja Lapangan</h1>
+      <p class="text-lg mt-2">PT.TRADERS INCUBATOR INTERNASIONAL</p>
+    </div>
+  </header>
+
+  <!--Pendahuluan -->
+<section class="carousel-item py-12 bg-white">
+  <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div>
+      <h2 class="text-6xl font-montserrat font-bold mb-4">Pendahuluan</h2>
+      <p class="text-lg text-6xl text-justify font-montserrat leading-relaxed">
+        PT.TRADERS INCUBATOR INTERNASIONAL adalah tempat saya melaksanakan pkl selama 6 bulan yang beralamat di Alamat: Jl. Bypass Ngurah Rai Jl. Pesanggaran No.19, Pedungan, Denpasar Selatan, Kota Denpasar, Bali,
+        walaupun perusahaan ini bukan perusahaan yang berbasis coding/ atau jasa pembuatan website 
+        namun di tempat ini saya belajar banyak hal di dunia dunia industri, mulai dari sikap/atitude, tanggung jawab mengumpulkan tugas yang di beri pembimbing dan 
+        jam kerja yang lebih lama dari sekolah.
+      </p>
+    </div>
+    <div>
+      <img src="foto anggota.jpeg" alt="Dokumentasi PKL" class="w-full rounded-lg cursor-pointer shadow-lg hover:scale-105 transition transform" style="width: 800px; height: 700px;">
+      <p class="text-sm text-center mt-2 text-gray-600">Foto kantor PT.TRADERS INCUBATOR INTERNASIONAL</p>
+    </div>
+  </div>
+
+
+
+      <!-- Slide 2: Sejarah Kantor -->
+      <section class="carousel-item py-12 bg-gray-50">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h2 class="text-6xl  font-montserrat font-bold mb-4">Sejarah Kantor</h2>
+            <p class="text-lg text-6xl text-justify font-montserrat leading-relaxed">
+              Perusahaan PT.TRADERS INCUBATOR INTERNASIONAL didirikan pada tahun 2022. Sejak awal berdirinya, perusahaan ini berfokus pada bidang trading forex, dengan visi Menjadi perusahaan konsultan trading forex yang terbesar dan terbaik di Bali dengan penerapan revolusi industri 5.0 (society 5.0).
+            </p>
+
+            <h2 class="text-2xl  font-montserrat font-bold mt-8 mb-4">Permasalahan</h2>
+            <ul class="pl-6 text-lg text-justify font-montserrat leading-relaxed">
+
+              <p class="text-lg text-6xl text-justify font-montserrat leading-relaxed">
+                Keterikatan Adat Budaya Bali VS Kebebasan Financial.</p>
+
+              <li><span class="text-blue-600 font-bold">•</span> Trading Forex Memiliki Stigma Negatif.</li>
+              <li><span class="text-blue-600 font-bold">•</span> Permasalahan Utama Trader (Modal dan Kemampuan Trading).</li>
+              <li><span class="text-blue-600 font-bold">•</span> Kurangnya Literasi Keuangan di Bali.</li>
+            </ul>
+
+
+            <h2 class="text-2xl  font-montserrat font-bold mt-8 mb-4">Peluang</h2>
+            <ul class="pl-6 text-lg text-justify font-montserrat leading-relaxed">
+
+              <li><span class="text-blue-600 font-bold">•</span> Market sangat Besar (Dunia) tanpa harus bertemu langsung (online).</li>
+              <li><span class="text-blue-600 font-bold">•</span> Permasalahan Utama Trader (Modal dan Kemampuan Trading).</li>
+              <li><span class="text-blue-600 font-bold">•</span> Potensi Kebebasan Waktu (fleksibel)</li>
+              <li><span class="text-blue-600 font-bold">•</span> Potensi Kebebasan Financial.</li>
+              <li><span class="text-blue-600 font-bold">•</span> Banyaknya Orang Yang ingin berinvestasi dengan aman dan return yang lebih besar dari bunga bank.</li>
+            </ul>
+            
+            
+            <p class="text-lg leading-relaxed mt-4">
+              Dengan adanya permasalahan maka ada peluang tersebut, maka ini lah penyebab terbangunnya kantor PT.TRADERS INCUBATOR INTERNASIONAL.
+            </p>
+          </div>
+          <div>
+            <img src="foto kantor.jpeg" alt="Sejarah Kantor" class="w-full rounded-lg cursor-pointer shadow-lg hover:scale-105 transition transform" style="width: 500x; height: 700px;">
+            <p class="text-sm text-center mt-2 text-gray-600">Gambar: Gedung kantor atau dokumentasi terkait sejarah</p>
+          </div>
+        </div>
+      </section>
+
+ <!-- Kolom Tujuan dan Manfaat -->
+ <div class="container mx-auto px-4 mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+  <!-- Kolom Tujuan -->
+  <div class="bg-blue-600 p-6 rounded-lg shadow-md">
+    <h3 class="text-3xl text-white font-bold font-montserrat mb-4">Tujuan</h3>
+    <p class="text-lg text-white font-montserrat leading-relaxed">
+      - Mengembangkan kemampuan siswa dalam dunia kerja.<br>
+      - Mengenal lingkungan industri secara langsung.<br>
+      - Melatih tanggung jawab dalam menyelesaikan tugas.<br>
+      - Mengasah keterampilan komunikasi dan kerja tim.
+    </p>
+  </div>
+
+  <!-- Kolom Manfaat -->
+  <div class="bg-blue-600 p-6 rounded-lg shadow-md">
+    <h3 class="text-3xl text-white font-bold font-montserrat mb-4">Manfaat</h3>
+    <p class="text-lg text-white font-montserrat leading-relaxed">
+      - Mendapatkan pengalaman praktis di dunia kerja.<br>
+      - Meningkatkan kemampuan teknis dan soft skills.<br>
+      - Menjadi lebih disiplin dan bertanggung jawab.<br>
+      - Memahami proses kerja di industri secara langsung.
+    </p>
+  </div>
+</div>
+</section>
+
+
+      <!-- Slide 3: Kegiatan PKL -->
+      <section class="carousel-item py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+          <h2 class="text-6xl font-bold font-montserrat mb-6">Kegiatan PKL</h2>
+      
+          <!-- Juli -->
+          <h3 class="text-4xl font-semibold font-montserrat mb-4">Ringkasan Kegiatan Bulan Juli</h3>
+          <table class="table-auto w-full border-collapse border border-gray-300 mb-8">
+            <thead>
+              <tr class="bg-blue-100">
+                <th class="border border-gray-300 px-4 py-2">NO</th>
+                <th class="border border-gray-300 px-4 py-2">Kegiatan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">1</td>
+                <td class="border border-gray-300 px-4 py-2">Pelepasan dan pengarahan di kantor</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">2</td>
+                <td class="border border-gray-300 px-4 py-2">Pengenalan lingkungan kantor</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">3</td>
+                <td class="border border-gray-300 px-4 py-2">Meeting dengan staf kantor</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">4</td>
+                <td class="border border-gray-300 px-4 py-2">Membuat rekapan tentang materi RPL yang sudah dipelajari saat kelas 10</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">5</td>
+                <td class="border border-gray-300 px-4 py-2">Mengumpulkan hasil rekapan</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">6</td>
+                <td class="border border-gray-300 px-4 py-2">Meeting dengan CEO Traders Incubator Internasional</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <!-- Agustus -->
+          <h3 class="text-4xl font-semibold font-montserrat mb-4">Ringkasan Kegiatan Bulan Agustus</h3>
+          <table class="table-auto w-full border-collapse border border-gray-300 mb-8">
+            <thead>
+              <tr class="bg-blue-100">
+                <th class="border border-gray-300 px-4 py-2">NO</th>
+                <th class="border border-gray-300 px-4 py-2">Kegiatan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">1</td>
+                <td class="border border-gray-300 px-4 py-2">Mengerjakan proyek HTML yang diberi oleh pembimbing</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">2</td>
+                <td class="border border-gray-300 px-4 py-2">Meeting untuk mempresentasikan proyek HTML</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">3</td>
+                <td class="border border-gray-300 px-4 py-2">Pemberian materi tentang kerangka website</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">4</td>
+                <td class="border border-gray-300 px-4 py-2">Mengikuti Event Bali Blockchain Summit</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <!-- September -->
+
+                    <!-- Tabel Kegiatan Bulan Juli -->
+                    <h3 class="text-4xl font-semibold font-montserrat mb-4">Ringkasan Kegiatan Bulan September</h3>
+                    <table class="table-auto w-full border-collapse border border-gray-300 mb-8">
+                      <thead>
+                        <tr class="bg-blue-100">
+                          <th class="border border-gray-300 px-4 py-2">NO</th>
+                          <th class="border border-gray-300 px-4 py-2">Kegiatan</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="border border-gray-300 px-4 py-2">1</td>
+                          <td class="border border-gray-300 px-4 py-2"> Mengikuti training mengenai web introduction</td>
+                        </tr>
+                        <tr>
+                          <td class="border border-gray-300 px-4 py-2">2</td>
+                          <td class="border border-gray-300 px-4 py-2">Mempelajari materi yg di beri oleh pembimbing</td>
+                        </tr>
+                        <tr>
+                          <td class="border border-gray-300 px-4 py-2">3</td>
+                          <td class="border border-gray-300 px-4 py-2">Mengerjakan tugas yang di beri oleh pembimbing</td>
+                        </tr>
+                        <tr>
+                          <td class="border border-gray-300 px-4 py-2">4</td>
+                          <td class="border border-gray-300 px-4 py-2">Mengikuti training ke 2 mengenai web structure</td>
+                        </tr>
+                      
+                        </tr>
+                      </tbody>
+                    </table>
+                
+                    <!-- Oktober -->
+                    <h3 class="text-4xl font-semibold font-montserrat mb-4">Ringkasan Kegiatan Bulan Oktober</h3>
+                    <table class="table-auto w-full border-collapse border border-gray-300 mb-8">
+                      <thead>
+                        <tr class="bg-blue-100">
+                          <th class="border border-gray-300 px-4 py-2">NO</th>
+                          <th class="border border-gray-300 px-4 py-2">Kegiatan</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="border border-gray-300 px-4 py-2">1</td>
+                          <td class="border border-gray-300 px-4 py-2">Mengikuti training ke 3 mengenai web desain</td>
+                        </tr>
+                        <tr>
+                          <td class="border border-gray-300 px-4 py-2">2</td>
+                          <td class="border border-gray-300 px-4 py-2">Mempelajari materi yang sudah di beri oleh pembimbing</td>
+                        </tr>
+                        <tr>
+                          <td class="border border-gray-300 px-4 py-2">3</td>
+                          <td class="border border-gray-300 px-4 py-2">mengerjakan training ke 4 mengenai studi kasus website company profile</td>
+                        
+                        </tr>
+                      </tbody>
+                    </table>
+
+
+                    <!-- november -->
+                    <h3 class="text-4xl font-semibold font-montserrat mb-4"> Ringkasan Kegiatan Bulan November</h3>
+                    <table class="table-auto w-full border-collapse border border-gray-300 mb-8">
+                      <thead>
+                        <tr class="bg-blue-100">
+                          <th class="border border-gray-300 px-4 py-2">NO</th>
+                          <th class="border border-gray-300 px-4 py-2">Kegiatan</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="border border-gray-300 px-4 py-2">1</td>
+                          <td class="border border-gray-300 px-4 py-2">Mengerjakan proyek HTML yang diberi oleh pembimbing tentang mencari bug pada website kantor Traders Incubator Internasional</td>
+                        </tr>
+                        <tr>
+                          <td class="border border-gray-300 px-4 py-2">2</td>
+                          <td class="border border-gray-300 px-4 py-2">Menjaga di depan/ jadi front office</td>
+                        </tr>
+                     
+                        
+                      </tbody>
+                    </table>
+
+                      <!-- Desember -->
+                      <h3 class="text-4xl font-semibold font-montserrat mb-4">Ringkasan Kegiatan Bulan Desember</h3>
+                    <table class="table-auto w-full border-collapse border border-gray-300 mb-8">
+                      <thead>
+                        <tr class="bg-blue-100">
+                          <th class="border border-gray-300 px-4 py-2">NO</th>
+                          <th class="border border-gray-300 px-4 py-2">Kegiatan</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="border border-gray-300 px-4 py-2">1</td>
+                          <td class="border border-gray-300 px-4 py-2">Penyerahan blanko penilaian kepada pembimbing di industri</td>
+                        </tr>
+                        <tr>
+                          <td class="border border-gray-300 px-4 py-2">2</td>
+                          <td class="border border-gray-300 px-4 py-2"> Penjemputan siswa pkl oleh pembina pkl</td>
+                        </tr>
+              
+                      </tbody>
+                    </table>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+      <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Kolom 1 -->
+          <div class="text-center">
+            <img src="foto web.png" alt="Foto 1" class="mx-auto rounded-lg shadow-lg mb-4 hover:scale-105 transition-transform">
+            <p class="text-lg text-gray-600">
+              Foto 1: Penjelasan singkat tentang gambar pertama. Foto ini diambil saat kegiatan [nama kegiatan].
+            </p>
+          </div>
+          <!-- Kolom 2 -->
+          <div class="text-center">
+            <img src="foto pengerjaan web.png" alt="Foto 2" class="mx-auto rounded-lg shadow-lg mb-4 hover:scale-105 transition-transform">
+            <p class="text-lg text-gray-600">
+              Foto 2: Penjelasan singkat tentang gambar kedua. Foto ini menunjukkan momen saat [nama momen].
+            </p>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Slide 5: Kesimpulan -->
+<section class="carousel-item py-12 bg-white flex justify-center items-center">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-4">Kesimpulan</h2>
+    <p class="text-lg leading-relaxed text-justify mx-auto max-w-2xl">
+      PKL di PT.Traders Incubator Internasional memberikan pengalaman berharga dan menambah wawasan tentang dunia kerja. Saya mengucapkan terima kasih kepada semua pihak yang telah membantu selama proses PKL berlangsung. 
+    </p>
+  </div>
+</section>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+  <script>
+
+
+    function openModal(title, description) {
+      document.getElementById('modal-title').innerText = title;
+      document.getElementById('modal-description').innerText = description;
+      document.getElementById('modal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('modal').classList.add('hidden');
+    }
+  </script>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy;2024 Manggus</p>
+    </div>
+  </footer>
+
+</body>
 </html>
